@@ -4,4 +4,4 @@
 # Script for exporting configs used by other scripts. #
 #######################################################
 
-brew bundle dump
+brew bundle dump --force
