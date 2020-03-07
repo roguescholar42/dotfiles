@@ -12,6 +12,7 @@ brew "git"
 brew "hugo"
 brew "libksba"
 brew "libtool"
+brew "mas", link: false
 brew "nmap"
 brew "node"
 brew "pkg-config"
