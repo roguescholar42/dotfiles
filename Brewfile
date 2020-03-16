@@ -1,5 +1,6 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-drivers"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
 brew "readline"
@@ -22,18 +23,27 @@ brew "python", link: false
 brew "sshpass"
 brew "tree"
 brew "zlib"
+cask "battle-net"
+cask "discord"
+cask "firefox"
 cask "font-fira-code"
 cask "font-hack-nerd-font"
 cask "font-monoid-nerd-font"
 cask "github"
-cask "iterm2"
+cask "google-chrome"
+cask "hyper"
+cask "opera"
 cask "powershell"
+cask "resilio-sync"
+cask "sonos"
+cask "spotify"
+cask "steam"
 cask "visual-studio-code"
+cask "vlc"
 mas "Caffeine", id: 411246225
 mas "Day One", id: 1055511498
 mas "DeskPM", id: 915839505
 mas "Kindle", id: 405399194
 mas "Scapple", id: 568020055
-mas "Scrivener", id: 418889511
 mas "Server", id: 883878097
 mas "Twitter", id: 409789998
