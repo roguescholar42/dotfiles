@@ -15,11 +15,11 @@ brew "hugo"
 brew "libksba"
 brew "libtool"
 brew "mackup"
-brew "mas", link: false
+brew "mas"
 brew "nmap"
 brew "node"
 brew "pkg-config"
-brew "python", link: false
+brew "python"
 brew "sshpass"
 brew "tree"
 brew "zlib"
