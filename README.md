@@ -11,6 +11,6 @@ Here is the central repository for all of my Dotfiles and set up scripts.  My go
 
 Open up a terminal window and copy in this command:
 
-git clone https://github.com/roguescholar42/dotfiles.git ~/dotfiles
+`git clone https://github.com/roguescholar42/dotfiles.git ~/dotfiles`
 
 This will download the repository into the new dotfiles directory. 
