@@ -7,7 +7,7 @@
 # Exports Brewfile of currently installed apps.
 echo "Checking installed applicatons..."
 echo 
-brew bundle dump --force
+brew bundle dump --force --file ~/.dotfiles/Brewfile
 echo "Applications exported."
 
 # Exports copy of dotfiles using Mackup.
