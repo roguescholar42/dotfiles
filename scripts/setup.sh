@@ -9,6 +9,3 @@ BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # symlink mackup config to this repo.
 ln -s ${BASEDIR}/.mackup.cfg ~/.mackup.cfg
-
-# Install oh my zsh.
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
