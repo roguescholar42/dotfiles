@@ -1,0 +1,18 @@
+{
+    "editor.fontSize": 15,
+    "window.zoomLevel": 0,
+    "terminal.integrated.fontSize": 14,
+    "workbench.iconTheme": "material-icon-theme",
+    "search.maintainFileSearchCache": true,
+    "git.autofetch": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "git.enableSmartCommit": true,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "workbench.colorTheme": "Panda Syntax",
+    "vsicons.dontShowNewVersionMessage": true,
+    "python.jediEnabled": false,
+    "git.confirmSync": false,
+    "editor.fontFamily": "'FiraCode Nerd Font', Menlo, Monaco, 'Courier New', monospace",
+    "better-comments.highlightPlainText": true,
+}
