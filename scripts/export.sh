@@ -17,6 +17,10 @@ echo
 mackup backup
 echo "Dotfiles exported."
 
+# Commits changes to GitHub. 
+echo
+echo "Pushing Changes to GitHub."
+echo
 cd ~/.dotfiles
 git commit -am "Dotfiles Updated."
 git push
