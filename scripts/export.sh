@@ -16,3 +16,8 @@ echo "Checking dotfiles..."
 echo 
 mackup backup
 echo "Dotfiles exported."
+
+cd ~/.dotfiles
+git commit -am "Dotfiles Updated."
+git push
+cd - 
