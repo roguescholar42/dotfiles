@@ -11,4 +11,4 @@ BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 ln -s ${BASEDIR}/.mackup.cfg ~/.mackup.cfg
 
 # Runs the Import script to update files.
-import.sh
+./import.sh
