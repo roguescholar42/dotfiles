@@ -9,3 +9,6 @@ BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # symlink mackup config to this repo.
 ln -s ${BASEDIR}/.mackup.cfg ~/.mackup.cfg
+
+# Runs the Import script to update files.
+import.sh
