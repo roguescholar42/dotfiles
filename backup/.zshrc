@@ -17,6 +17,9 @@ antigen theme denysdovhan/spaceship-prompt
 # Apply changes to Antigen configuration.
 antigen apply
 
+# Import Alias file
+source ~/.dotfiles/backup/.alias.zsh
+
 # Add custom script folder.
 export PATH="$PATH:$HOME/.scripts"
 
