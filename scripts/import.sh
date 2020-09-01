@@ -12,4 +12,9 @@ brew cask upgrade
 
 # Install new packages from Brewfile.
 echo "Installing New Packages."
+echo 
 brew bundle --file ~/.dotfiles/Brewfile
+
+echo "Updating Dotfiles."
+echo
+mackup restore
