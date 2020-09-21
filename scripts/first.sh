@@ -33,8 +33,9 @@ if [ $OS == "Raspbian" ]; then
     # makes link to mackup configs.
     ln -s ~/.dotfiles/.pi_mackup.cfg ~/.mackup.cfg
 
-    # Added Mackup to path.
+    # Added Mackup to path and reload bash.
     echo 'export PATH="$PATH:/home/pi/.local/bin"' >> ~/.bash_profile
+    source ~/.bash_profile
 
     # Sets up Dotfiles. 
     echo "Updating Dotfiles."
@@ -42,5 +43,5 @@ if [ $OS == "Raspbian" ]; then
     mackup restore
 
     # Sets Zsh as the main shell. 
-    chsh -s /bin/zsh 
+    sudo chsh -s /bin/zsh 
 fi
