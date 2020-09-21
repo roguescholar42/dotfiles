@@ -33,6 +33,9 @@ if [ $OS == "Raspbian" ]; then
     # makes link to mackup configs.
     ln -s ~/.dotfiles/.pi_mackup.cfg ~/.mackup.cfg
 
+    # Added Mackup to path.
+    echo 'export PATH="$PATH:/home/pi/.local/bin"' >> ~/.bash_profile
+
     # Sets up Dotfiles. 
     echo "Updating Dotfiles."
     echo
