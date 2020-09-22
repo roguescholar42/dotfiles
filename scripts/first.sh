@@ -28,7 +28,7 @@ if [ $OS == "Raspbian" ]; then
     sudo apt-get update
     sudo apt-get upgrade -y
     sudo apt-get install zsh zsh-antigen -y
-    pip install --upgrade mackup
+    pip3 install --upgrade mackup
 
     # makes link to mackup configs.
     ln -s ~/.dotfiles/.pi_mackup.cfg ~/.mackup.cfg
