@@ -1,21 +1,14 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# Add Antigen to Zsh session.
-source /usr/local/share/antigen/antigen.zsh
-
-# Set Antigen to use Oh-My-Zsh plugins.
-antigen use oh-my-zsh
+# Antibody plugin manager setup.
+source <(antibody init) 
 
 # Load Plugins.
-antigen bundle osx
-antigen bundle history
+# antibody bundle ohmyzsh/ohmyzsh path:plugins/osx
 
 # Add Spaceship Theme.
-antigen theme denysdovhan/spaceship-prompt
-
-# Apply changes to Antigen configuration.
-antigen apply
+antibody bundle denysdovhan/spaceship-prompt
 
 # Import Alias file
 source ~/.dotfiles/backup/.alias.zsh
