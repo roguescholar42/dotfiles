@@ -36,6 +36,7 @@ antibody bundle zdharma/fast-syntax-highlighting
 antibody bundle chrissicool/zsh-256color
 antibody bundle zsh-users/zsh-autosuggestions
 antibody bundle zsh-users/zsh-completions
+antibody bundle zpm-zsh/ls
 
 # Add Spaceship Theme.
 antibody bundle denysdovhan/spaceship-prompt
