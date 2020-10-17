@@ -27,8 +27,10 @@ if [ $OS == "Raspbian" ]; then
     # Updates and installs apps using apt-get and pip.
     sudo apt-get update
     sudo apt-get upgrade -y
-    sudo apt-get install zsh zsh-antigen -y
     pip3 install --upgrade mackup
+
+    # Install Antibody
+    curl -sfL git.io/antibody | sudo sh -s - -b /usr/local/bin
 
     # makes link to mackup configs.
     ln -s ~/.dotfiles/.pi_mackup.cfg ~/.mackup.cfg
@@ -43,5 +45,5 @@ if [ $OS == "Raspbian" ]; then
     mackup restore
 
     # Sets Zsh as the main shell. 
-    sudo chsh -s /bin/zsh 
+    chsh -s /bin/zsh 
 fi

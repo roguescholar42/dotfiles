@@ -26,3 +26,6 @@ brew bundle --file ~/.dotfiles/Brewfile
 echo "Updating Dotfiles."
 echo
 mackup restore
+
+# Reloads Zsh.
+exec zsh
