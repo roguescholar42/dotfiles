@@ -41,6 +41,10 @@ antibody bundle zpm-zsh/ls
 # Add Spaceship Theme.
 antibody bundle denysdovhan/spaceship-prompt
 
+# Spaceship theme customizations.
+SPACESHIP_CHAR_SYMBOL="\uf135 "
+SPACESHIP_CHAR_SUFFIX=" "
+
 # Import Alias file
 source ~/.dotfiles/backup/.alias.zsh
 
