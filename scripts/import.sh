@@ -15,7 +15,7 @@ git pull
 cd - 
 
 # Checks if macOS, then performs specific actions.
-if [ $KERNEL == "Darwin" ] then
+if [ $KERNEL == "Darwin" ]; then
     # Upgrade already existing packages.
     echo "Upgrading Packages."
     echo
