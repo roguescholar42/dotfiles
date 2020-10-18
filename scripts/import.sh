@@ -10,9 +10,7 @@ KERNEL=$(uname)
 # Pulls files from GitHub.
 echo "Retrieving files from GitHub."
 echo
-cd ~/.dotfiles
-git pull
-cd - 
+git -C ~/.dotfiles pull 
 
 # Checks if macOS, then performs specific actions.
 if [ $KERNEL == "Darwin" ]; then

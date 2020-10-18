@@ -21,7 +21,5 @@ echo "Dotfiles exported."
 echo
 echo "Pushing Changes to GitHub."
 echo
-# cd ~/.dotfiles
 git -C ~/.dotfiles commit -am "Dotfiles Updated."
 git -C ~/.dotfiles push
-# cd - 
