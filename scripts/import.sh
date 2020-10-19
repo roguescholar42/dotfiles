@@ -18,7 +18,7 @@ if [ $KERNEL == "Darwin" ]; then
     echo "Upgrading Packages."
     echo
     brew update
-    brew cask upgrade
+    brew upgrade --cask
 
     # Install new packages from Brewfile.
     echo "Installing New Packages."
