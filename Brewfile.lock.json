@@ -8,16 +8,16 @@
         "revision": "78513292658ff002a6a816bdeb9d286150ee1a16"
       },
       "homebrew/cask": {
-        "revision": "1c1d9d691e1b75bca281450ef19139a2b1a663ef"
+        "revision": "c4168b19a2651be0eeb5436f7e6986e15892a606"
       },
       "homebrew/cask-drivers": {
-        "revision": "727ae573a8b79e42debac46c2750368af135b24e"
+        "revision": "ae2b9a4df97668d968adcc25a9449d46dfd38513"
       },
       "homebrew/cask-fonts": {
-        "revision": "5ccefab24c783286a8c4fadf3b62c1967c961f6f"
+        "revision": "2a8ea732ef515d23a867371859aaf7c3acdb9a83"
       },
       "homebrew/core": {
-        "revision": "2783b87be57bbc47280701687a0b622779491242"
+        "revision": "96cb8d20f886edad0a279843e99542ffc0702b1e"
       }
     },
     "brew": {
@@ -571,13 +571,13 @@
         }
       },
       "google-chrome": {
-        "version": "80.0.3987.149",
+        "version": "80.0.3987.132",
         "options": {
           "full_name": "google-chrome"
         }
       },
       "hyper": {
-        "version": "1.3.3",
+        "version": "3.0.2",
         "options": {
           "full_name": "hyper"
         }
@@ -589,7 +589,7 @@
         }
       },
       "opera": {
-        "version": "67.0.3575.97",
+        "version": "67.0.3575.79",
         "options": {
           "full_name": "opera"
         }
@@ -613,7 +613,7 @@
         }
       },
       "sonos": {
-        "version": "8.6",
+        "version": "11.0",
         "options": {
           "full_name": "sonos"
         }
@@ -637,7 +637,7 @@
         }
       },
       "visual-studio-code": {
-        "version": "1.40.2",
+        "version": "1.30.1,dea8705087adb1b5e5ae1d9123278e178656186a",
         "options": {
           "full_name": "visual-studio-code"
         }
@@ -713,8 +713,8 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.5.6",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "2783b87be57bbc47280701687a0b622779491242",
-        "CLT": "1103.0.32.29",
+        "Homebrew/homebrew-core": "96cb8d20f886edad0a279843e99542ffc0702b1e",
+        "CLT": "11.0.33.17",
         "Xcode": "11.5",
         "macOS": "10.15.6"
       }

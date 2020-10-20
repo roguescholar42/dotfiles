@@ -7,3 +7,4 @@ alias ls='ls -G' # Forces output of LS to be colorized.
 
 # SSH aliases
 alias rpi='ssh pi@raspberrypi.local'
+alias jupiter='ssh Josh@Jupiter.local'
