@@ -17,6 +17,7 @@ brew "dockutil"
 brew "gh"
 brew "git"
 brew "glib"
+brew "go"
 brew "hugo"
 brew "libtool"
 brew "imagemagick"
@@ -55,6 +56,7 @@ cask "vlc"
 mas "Caffeine", id: 411246225
 mas "Day One", id: 1055511498
 mas "DeskPM", id: 915839505
+mas "Ghostery Lite", id: 1436953057
 mas "Kindle", id: 405399194
 mas "Microsoft Excel", id: 462058435
 mas "Microsoft OneNote", id: 784801555
