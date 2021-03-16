@@ -8,3 +8,5 @@
 	email = roguescholar42@gmail.com
 [color]
 	ui = auto
+[init]
+	defaultBranch = main
