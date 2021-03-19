@@ -7,7 +7,7 @@ Here is the central repository for all of my Dotfiles and set up scripts.
 - [Homebrew](https://github.com/Homebrew/brew)
 - [Homebrew Bundle](https://github.com/Homebrew/homebrew-bundle)
 - [Mas CLI](https://github.com/mas-cli/mas)
-- [Antigen](https://github.com/zsh-users/antigen)
+- [Antibody](https://github.com/getantibody/antibody)
 - [Chezmoi](https://github.com/twpayne/chezmoi)
 
 ## Installation
