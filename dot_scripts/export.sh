@@ -7,20 +7,14 @@
 # Exports Brewfile of currently installed apps.
 echo "Checking installed applicatons..."
 echo 
-brew bundle dump --force --file ~/.dotfiles/Brewfile
+brew bundle dump --force --global
+chezmoi add ~/.Brewfile
 echo "Applications exported."
 
-# Exports copy of dotfiles using Mackup.
-echo 
-echo "Checking dotfiles..."
-echo 
-mackup backup
-echo "Dotfiles exported."
-
 # Commits changes to GitHub. 
-echo
-echo "Pushing Changes to GitHub."
-echo
-git -C ~/.dotfiles add .
-git -C ~/.dotfiles commit -am "Dotfiles Updated."
-git -C ~/.dotfiles push
+#echo
+#echo "Pushing Changes to GitHub."
+#echo
+#git -C ~/.dotfiles add .
+#git -C ~/.dotfiles commit -am "Dotfiles Updated."
+#git -C ~/.dotfiles push
