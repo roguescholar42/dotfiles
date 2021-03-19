@@ -1,19 +1,21 @@
 # My Dotfiles
 
-Here is the central repository for all of my Dotfiles and set up scripts.  My goal is to get switching between machines to be as painless as possible.
+Here is the central repository for all of my Dotfiles and set up scripts. 
 
 ## Tools Used
 
 - [Homebrew](https://github.com/Homebrew/brew)
 - [Homebrew Bundle](https://github.com/Homebrew/homebrew-bundle)
 - [Mas CLI](https://github.com/mas-cli/mas)
-- [Mackup](https://github.com/lra/mackup)
 - [Antigen](https://github.com/zsh-users/antigen)
+- [Chezmoi](https://github.com/twpayne/chezmoi)
 
 ## Installation
 
-Open up a terminal window and copy in this command:
+Install Chezmoi and run the following commands:
 
-`git clone https://github.com/roguescholar42/dotfiles.git ~/.dotfiles`
+`chezmoi init https://github.com/roguescholar42/dotfiles.git`
+
+`chezmoi apply`
 
 This will download the repository into the new dotfiles directory.

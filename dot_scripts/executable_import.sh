@@ -7,10 +7,10 @@
 # Loads kernel into variable.
 KERNEL=$(uname)
 
-# Pulls files from GitHub.
-echo "Retrieving files from GitHub."
+# Updates Dotfiles using Chezmoi.
+echo "Updating Dotfiles."
 echo
-git -C ~/.dotfiles pull 
+chezmoi update
 
 # Checks if macOS, then performs specific actions.
 if [ $KERNEL == "Darwin" ]; then
@@ -23,13 +23,8 @@ if [ $KERNEL == "Darwin" ]; then
     # Install new packages from Brewfile.
     echo "Installing New Packages."
     echo 
-    brew bundle --file ~/.dotfiles/Brewfile
+    brew bundle --global
 fi
-
-# Updates Dotfiles using Mackup.
-echo "Updating Dotfiles."
-echo
-mackup restore
 
 # Reloads Zsh.
 exec zsh
