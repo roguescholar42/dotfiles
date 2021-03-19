@@ -45,7 +45,7 @@ SPACESHIP_CHAR_SYMBOL="\uf135 "
 SPACESHIP_CHAR_SUFFIX=" "
 
 # Import Alias file
-source ~/.dotfiles/backup/.alias.zsh
+source ~/.alias.zsh
 
 # Add folders to path.
 export PATH="$PATH:$HOME/.scripts"           # Add custom script folder.
