@@ -12,9 +12,9 @@ chezmoi add ~/.Brewfile
 echo "Applications exported."
 
 # Commits changes to GitHub. 
-#echo
-#echo "Pushing Changes to GitHub."
-#echo
-#git -C ~/.dotfiles add .
-#git -C ~/.dotfiles commit -am "Dotfiles Updated."
-#git -C ~/.dotfiles push
+echo
+echo "Pushing Changes to GitHub."
+echo
+git -C ~/.local/share/chezmoi add .
+git -C ~/.local/share/chezmoi commit -am "Dotfiles Updated."
+git -C ~/.local/share/chezmoi push
