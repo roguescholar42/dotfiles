@@ -34,11 +34,7 @@ elif [ $KERNEL == "Linux" ]; then
 fi
 
 # Checks if Zsh is default shell.
-if [ $SHELL == "/bin/zsh" ]; then
-    # Reloads zsh if default. 
-    echo "Reloading shell."
-    exec zsh
-else
+if [ $SHELL != "/bin/zsh" ]; then
     # Sets Zsh as the main shell. 
     echo "Setting Zsh as default."
     chsh -s /bin/zsh 
