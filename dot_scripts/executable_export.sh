@@ -4,15 +4,22 @@
 # Script for exporting configs used by other scripts. #
 #######################################################
 
-# Exports Brewfile of currently installed apps.
-echo "Checking installed applicatons..."
-echo 
-brew bundle dump --force --global
-chezmoi add ~/.Brewfile
-echo "Applications exported."
+# Loads kernel into variable.
+KERNEL=$(uname)
+
+# Checks if macOS, then performs specific actions.
+if [ $KERNEL == "Darwin" ]; then
+    
+    # Exports Brewfile of currently installed apps.
+    echo "Checking installed applicatons..."
+    echo 
+    brew bundle dump --force --global
+    chezmoi add ~/.Brewfile
+    echo "Applications exported."
+    echo
+fi
 
 # Commits changes to GitHub. 
-echo
 echo "Pushing Changes to GitHub."
 echo
 git -C ~/.local/share/chezmoi add .
