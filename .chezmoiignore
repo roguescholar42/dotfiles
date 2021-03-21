@@ -1,6 +1,6 @@
 README.md
 
 {{ if eq .chezmoi.os "linux" }}
-    dot_Brewfile
-    private_dot_hyper.js
+dot_Brewfile
+private_dot_hyper.js
 {{ end }}
