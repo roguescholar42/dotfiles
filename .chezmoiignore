@@ -1,5 +1,5 @@
 README.md
 {{ if ne .chezmoi.os "darwin" }}
-dot_Brewfile
-private_dot_hyper.js
+.Brewfile
+.hyper.js
 {{ end }}
