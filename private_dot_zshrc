@@ -44,8 +44,9 @@ antibody bundle denysdovhan/spaceship-prompt
 SPACESHIP_CHAR_SYMBOL="\uf135 "
 SPACESHIP_CHAR_SUFFIX=" "
 
-# Import Alias file
-source ~/.alias.zsh
+# Import files into zshrc.
+source ~/.alias.zsh  # Imports Alias file.
+source ~/.os_custom  # Imports Zsh customizations based on OS.
 
 # Add folders to path.
 export PATH="$PATH:$HOME/.scripts"           # Add custom script folder.

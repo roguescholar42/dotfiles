@@ -1,0 +1,7 @@
+# Zsh customizations based on OS go here.
+
+{{ if eq .chezmoi.os "linux" }}
+    {{ if eq .chezmoi.osRelease.id "raspbian" }}
+export PATH="$PATH:$HOME/bin"
+    {{ end }}
+{{ end }}
