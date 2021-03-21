@@ -1,0 +1,8 @@
+set linenumbers
+set autoindent
+set trimblanks
+set mouse
+set numbercolor cyan
+set functioncolor cyan
+set keycolor cyan
+include /usr/local/share/nano/*.nanorc
