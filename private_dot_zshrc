@@ -48,6 +48,10 @@ SPACESHIP_CHAR_SUFFIX=" "
 source ~/.alias.zsh  # Imports Alias file.
 source ~/.os_custom  # Imports Zsh customizations based on OS.
 
+# Sets nano and default editor.
+export VISUAL=nano
+export EDITOR="$VISUAL"
+
 # Add folders to path.
 export PATH="$PATH:$HOME/.scripts"           # Add custom script folder.
 
