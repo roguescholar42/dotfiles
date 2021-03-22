@@ -1,5 +1,7 @@
 # Zsh customizations based on OS go here.
-
+{{ if eq .chezmoi.os "darwin" }}
+alias nano='/usr/local/bin/nano' # Sets nano command to version downloaded by Brew.
+{{ end }}
 {{ if eq .chezmoi.os "linux" }}
     {{ if eq .chezmoi.osRelease.id "raspbian" }}
 export PATH="$PATH:$HOME/bin"
