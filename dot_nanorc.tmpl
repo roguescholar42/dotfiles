@@ -5,7 +5,7 @@ set mouse
 set numbercolor cyan
 set functioncolor cyan
 set keycolor cyan
-{{ if eq chezmoi.os "darwin" }}
+{{ if eq .chezmoi.os "darwin" }}
 include /usr/local/share/nano/*.nanorc
 {{ else }}
 include "/usr/share/nano/*.nanorc"
