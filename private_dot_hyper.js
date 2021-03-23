@@ -109,6 +109,7 @@ module.exports = {
     "hyperline",
     "hyper-hide-title",
     "hyperlinks",
+    "hyper-pane"
   ],
 
   // in development, you can create a directory under
