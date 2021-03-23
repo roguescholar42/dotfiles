@@ -24,6 +24,7 @@ elif [ $KERNEL == "Linux" ]; then
     echo "Installing apps."
     sudo apt-get install zsh -y
     sudo apt-get install neofetch -y
+    sudo apt-get install exa -y
 
     # Checks if Antibody files doesn't exist. If not, it installs it.
     if [ ! -e "/usr/local/bin/antibody" ]; then
