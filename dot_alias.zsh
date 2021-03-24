@@ -3,6 +3,7 @@ alias checkconfigs='code ~/.local/share/chezmoi' # Opens Dotfiles folder in VSCo
 alias count='cd ~/documents/github/roguescholar42.github.io/_posts && git pull && tree' # Shows post count on blog.
 alias reload='exec zsh' # Reloads zsh
 alias ls='exa' # Changes ls command to exa for better output.
+alias la='ls -a' # Runs ls with all flag.
 alias goodmorningsoda='code ~/documents/github/roguescholar42.github.io' # Opens blog files in VSCode.
 
 # SSH aliases
