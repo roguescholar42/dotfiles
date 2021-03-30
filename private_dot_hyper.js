@@ -109,6 +109,7 @@ module.exports = {
     "hyper-spotify",
     "hyper-hide-title",
     "hyperlinks",
+    "hyper-transparent",
     "hyper-pane"
   ],
 
