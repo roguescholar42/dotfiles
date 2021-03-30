@@ -106,7 +106,7 @@ module.exports = {
   //   `project#1.0.1`
   plugins: [
     "hyper-quit",
-    "hyperline",
+    "hyper-spotify",
     "hyper-hide-title",
     "hyperlinks",
     "hyper-pane"
