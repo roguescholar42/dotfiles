@@ -43,6 +43,11 @@ module.exports = {
     // default: `true` on windows and Linux (ignored on macOS)
     showWindowControls: true,
 
+    hyperTransparent: {
+      opacity: 0.2,
+      vibrancy: 'ultra-dark' // ['', 'dark', 'medium-light', 'ultra-dark']
+    },
+
     // custom padding (css format, i.e.: `top right bottom left`)
     padding: '12px 14px',
 
@@ -107,8 +112,8 @@ module.exports = {
   plugins: [
     "hyper-quit",
     "hyper-spotify",
-    "hyper-hide-title",
     "hyperlinks",
+    "hyper-dracula",
     "hyper-transparent",
     "hyper-pane"
   ],
