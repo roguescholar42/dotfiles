@@ -43,11 +43,6 @@ module.exports = {
     // default: `true` on windows and Linux (ignored on macOS)
     showWindowControls: true,
 
-    hyperTransparent: {
-      opacity: 0.2,
-      vibrancy: 'ultra-dark' // ['', 'dark', 'medium-light', 'ultra-dark']
-    },
-
     // custom padding (css format, i.e.: `top right bottom left`)
     padding: '12px 14px',
 
@@ -91,7 +86,7 @@ module.exports = {
     bell: false,
 
     // if true, selected text will automatically be copied to the clipboard
-    copyOnSelect: false
+    copyOnSelect: false,
 
     // if true, on right click selected text will be copied or pasted if no
     // selection is present (true by default on Windows)
@@ -101,6 +96,14 @@ module.exports = {
     // bellSoundURL: 'http://example.com/bell.mp3',
 
     // for advanced config flags please refer to https://hyper.is/#cfg
+
+    MaterialTheme: {
+      // Set the theme variant,
+      // OPTIONS: 'Darker', 'Palenight', 'Ocean', 
+      theme: 'Ocean',
+      backgroundOpacity: '0.5',
+      vibrancy: 'ultra-dark'
+    }
   },
 
   // a list of plugins to fetch and install from npm
@@ -113,8 +116,7 @@ module.exports = {
     "hyper-quit",
     "hyper-spotify",
     "hyperlinks",
-    "hyper-dracula",
-    "hyper-transparent",
+    "hyper-material-theme",
     "hyper-pane"
   ],
 
