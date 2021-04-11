@@ -1,5 +1,6 @@
 README.md
 {{- if ne .chezmoi.os "darwin" }}
+.config/bat/config
 .Brewfile
 .hyper.js
 {{- end }}
