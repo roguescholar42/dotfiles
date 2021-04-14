@@ -60,7 +60,6 @@ cask "vcv-rack"
 cask "visual-studio-code"
 cask "vlc"
 mas "AdBlock", id: 1402042596
-mas "Caffeine", id: 411246225
 mas "Day One", id: 1055511498
 mas "Ghostery Lite", id: 1436953057
 mas "Keynote", id: 409183694
