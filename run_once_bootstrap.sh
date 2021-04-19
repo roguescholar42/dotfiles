@@ -40,3 +40,6 @@ if [ $SHELL != "/bin/zsh" ]; then
     echo "Setting Zsh as default."
     chsh -s /bin/zsh 
 fi
+
+# Sends notification at the end of script.
+osascript -e 'display notification "Bootstrap Script has finished running on '$(hostname -s)'" with title "Bootstrap Script"'
