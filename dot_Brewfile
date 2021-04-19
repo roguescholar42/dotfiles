@@ -37,7 +37,6 @@ cask "battle-net"
 cask "discord"
 cask "firefox"
 cask "font-fira-mono-nerd-font"
-cask "font-firacode-nerd-font"
 cask "font-hack-nerd-font"
 cask "font-monoid-nerd-font"
 cask "font-roboto-mono-nerd-font"
@@ -46,10 +45,8 @@ cask "font-ubuntu-mono-nerd-font"
 cask "github"
 cask "google-chrome"
 cask "hyper"
-cask "itch"
 cask "lastpass"
 cask "opera"
-cask "powershell"
 cask "raspberry-pi-imager"
 cask "resilio-sync"
 cask "sonos"
@@ -60,15 +57,16 @@ cask "visual-studio-code"
 cask "vlc"
 mas "AdBlock", id: 1402042596
 mas "Day One", id: 1055511498
+mas "GarageBand", id: 682658836
 mas "Ghostery Lite", id: 1436953057
+mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Kindle", id: 405399194
 mas "Microsoft Excel", id: 462058435
 mas "Microsoft OneNote", id: 784801555
-mas "Microsoft Outlook", id: 985367838
 mas "Microsoft PowerPoint", id: 462062816
 mas "Microsoft Word", id: 462054704
+mas "Numbers", id: 409203825
 mas "OneDrive", id: 823766827
+mas "Pages", id: 409201541
 mas "Save to Pocket", id: 1477385213
-mas "Server", id: 883878097
-mas "Twitter", id: 409789998
